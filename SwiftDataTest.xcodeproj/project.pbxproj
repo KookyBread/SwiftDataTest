@@ -9,18 +9,60 @@
 /* Begin PBXBuildFile section */
 		713490282C2DB9710038F6FF /* SwiftDataTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713490272C2DB9710038F6FF /* SwiftDataTestApp.swift */; };
 		7134902A2C2DB9710038F6FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713490292C2DB9710038F6FF /* ContentView.swift */; };
-		7134902C2C2DB9710038F6FF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134902B2C2DB9710038F6FF /* Item.swift */; };
 		7134902E2C2DB9730038F6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7134902D2C2DB9730038F6FF /* Assets.xcassets */; };
 		713490312C2DB9730038F6FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713490302C2DB9730038F6FF /* Preview Assets.xcassets */; };
+		7156C7B32C2E736500AD04A7 /* TodayRingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C79F2C2E736200AD04A7 /* TodayRingData.swift */; };
+		7156C7B42C2E736500AD04A7 /* SleepDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A02C2E736200AD04A7 /* SleepDataSource.swift */; };
+		7156C7B62C2E736500AD04A7 /* SettingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A22C2E736200AD04A7 /* SettingType.swift */; };
+		7156C7B72C2E736500AD04A7 /* WorkoutDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A32C2E736200AD04A7 /* WorkoutDetailData.swift */; };
+		7156C7B82C2E736500AD04A7 /* HeartZoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A42C2E736200AD04A7 /* HeartZoneData.swift */; };
+		7156C7B92C2E736500AD04A7 /* HealthDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A52C2E736300AD04A7 /* HealthDataList.swift */; };
+		7156C7BA2C2E736500AD04A7 /* HealthDataStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A62C2E736300AD04A7 /* HealthDataStatistics.swift */; };
+		7156C7BB2C2E736500AD04A7 /* TodayHealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A72C2E736300AD04A7 /* TodayHealthData.swift */; };
+		7156C7BC2C2E736500AD04A7 /* SportsDataStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A82C2E736300AD04A7 /* SportsDataStatistics.swift */; };
+		7156C7BD2C2E736500AD04A7 /* WorkoutMaxMinRangeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7A92C2E736300AD04A7 /* WorkoutMaxMinRangeData.swift */; };
+		7156C7BE2C2E736500AD04A7 /* SleepStagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7AA2C2E736400AD04A7 /* SleepStagesData.swift */; };
+		7156C7BF2C2E736500AD04A7 /* ModelStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7AB2C2E736400AD04A7 /* ModelStruct.swift */; };
+		7156C7C02C2E736500AD04A7 /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7AC2C2E736400AD04A7 /* WorkoutList.swift */; };
+		7156C7C12C2E736500AD04A7 /* WorkoutSegmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7AD2C2E736400AD04A7 /* WorkoutSegmentData.swift */; };
+		7156C7C22C2E736500AD04A7 /* WorkoutTargetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7AE2C2E736400AD04A7 /* WorkoutTargetData.swift */; };
+		7156C7C32C2E736500AD04A7 /* WorkoutHeartZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7AF2C2E736500AD04A7 /* WorkoutHeartZone.swift */; };
+		7156C7C42C2E736500AD04A7 /* WorkoutStatisticsForTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7B02C2E736500AD04A7 /* WorkoutStatisticsForTarget.swift */; };
+		7156C7CE2C2E791F00AD04A7 /* MeSchemaV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7C92C2E791F00AD04A7 /* MeSchemaV4.swift */; };
+		7156C7CF2C2E791F00AD04A7 /* MeSchemaV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7CA2C2E791F00AD04A7 /* MeSchemaV2.swift */; };
+		7156C7D02C2E791F00AD04A7 /* MigrationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7CB2C2E791F00AD04A7 /* MigrationPlan.swift */; };
+		7156C7D12C2E791F00AD04A7 /* MeSchemaV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7CC2C2E791F00AD04A7 /* MeSchemaV3.swift */; };
+		7156C7D22C2E791F00AD04A7 /* MeSchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156C7CD2C2E791F00AD04A7 /* MeSchemaV1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		713490242C2DB9710038F6FF /* SwiftDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713490272C2DB9710038F6FF /* SwiftDataTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataTestApp.swift; sourceTree = "<group>"; };
 		713490292C2DB9710038F6FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7134902B2C2DB9710038F6FF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7134902D2C2DB9730038F6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713490302C2DB9730038F6FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7156C79F2C2E736200AD04A7 /* TodayRingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayRingData.swift; sourceTree = "<group>"; };
+		7156C7A02C2E736200AD04A7 /* SleepDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepDataSource.swift; sourceTree = "<group>"; };
+		7156C7A22C2E736200AD04A7 /* SettingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingType.swift; sourceTree = "<group>"; };
+		7156C7A32C2E736200AD04A7 /* WorkoutDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetailData.swift; sourceTree = "<group>"; };
+		7156C7A42C2E736200AD04A7 /* HeartZoneData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartZoneData.swift; sourceTree = "<group>"; };
+		7156C7A52C2E736300AD04A7 /* HealthDataList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataList.swift; sourceTree = "<group>"; };
+		7156C7A62C2E736300AD04A7 /* HealthDataStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataStatistics.swift; sourceTree = "<group>"; };
+		7156C7A72C2E736300AD04A7 /* TodayHealthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayHealthData.swift; sourceTree = "<group>"; };
+		7156C7A82C2E736300AD04A7 /* SportsDataStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsDataStatistics.swift; sourceTree = "<group>"; };
+		7156C7A92C2E736300AD04A7 /* WorkoutMaxMinRangeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutMaxMinRangeData.swift; sourceTree = "<group>"; };
+		7156C7AA2C2E736400AD04A7 /* SleepStagesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepStagesData.swift; sourceTree = "<group>"; };
+		7156C7AB2C2E736400AD04A7 /* ModelStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelStruct.swift; sourceTree = "<group>"; };
+		7156C7AC2C2E736400AD04A7 /* WorkoutList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		7156C7AD2C2E736400AD04A7 /* WorkoutSegmentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSegmentData.swift; sourceTree = "<group>"; };
+		7156C7AE2C2E736400AD04A7 /* WorkoutTargetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTargetData.swift; sourceTree = "<group>"; };
+		7156C7AF2C2E736500AD04A7 /* WorkoutHeartZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutHeartZone.swift; sourceTree = "<group>"; };
+		7156C7B02C2E736500AD04A7 /* WorkoutStatisticsForTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutStatisticsForTarget.swift; sourceTree = "<group>"; };
+		7156C7C92C2E791F00AD04A7 /* MeSchemaV4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeSchemaV4.swift; sourceTree = "<group>"; };
+		7156C7CA2C2E791F00AD04A7 /* MeSchemaV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeSchemaV2.swift; sourceTree = "<group>"; };
+		7156C7CB2C2E791F00AD04A7 /* MigrationPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MigrationPlan.swift; sourceTree = "<group>"; };
+		7156C7CC2C2E791F00AD04A7 /* MeSchemaV3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeSchemaV3.swift; sourceTree = "<group>"; };
+		7156C7CD2C2E791F00AD04A7 /* MeSchemaV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeSchemaV1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +97,8 @@
 			children = (
 				713490272C2DB9710038F6FF /* SwiftDataTestApp.swift */,
 				713490292C2DB9710038F6FF /* ContentView.swift */,
-				7134902B2C2DB9710038F6FF /* Item.swift */,
+				7156C7C82C2E78E900AD04A7 /* Migraiton */,
+				7156C7C72C2E788C00AD04A7 /* Model */,
 				7134902D2C2DB9730038F6FF /* Assets.xcassets */,
 				7134902F2C2DB9730038F6FF /* Preview Content */,
 			);
@@ -68,6 +111,42 @@
 				713490302C2DB9730038F6FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7156C7C72C2E788C00AD04A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7156C7AB2C2E736400AD04A7 /* ModelStruct.swift */,
+				7156C7A52C2E736300AD04A7 /* HealthDataList.swift */,
+				7156C7A62C2E736300AD04A7 /* HealthDataStatistics.swift */,
+				7156C7A42C2E736200AD04A7 /* HeartZoneData.swift */,
+				7156C7A22C2E736200AD04A7 /* SettingType.swift */,
+				7156C7A02C2E736200AD04A7 /* SleepDataSource.swift */,
+				7156C7AA2C2E736400AD04A7 /* SleepStagesData.swift */,
+				7156C7A82C2E736300AD04A7 /* SportsDataStatistics.swift */,
+				7156C7A72C2E736300AD04A7 /* TodayHealthData.swift */,
+				7156C79F2C2E736200AD04A7 /* TodayRingData.swift */,
+				7156C7A32C2E736200AD04A7 /* WorkoutDetailData.swift */,
+				7156C7AF2C2E736500AD04A7 /* WorkoutHeartZone.swift */,
+				7156C7AC2C2E736400AD04A7 /* WorkoutList.swift */,
+				7156C7A92C2E736300AD04A7 /* WorkoutMaxMinRangeData.swift */,
+				7156C7AD2C2E736400AD04A7 /* WorkoutSegmentData.swift */,
+				7156C7B02C2E736500AD04A7 /* WorkoutStatisticsForTarget.swift */,
+				7156C7AE2C2E736400AD04A7 /* WorkoutTargetData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7156C7C82C2E78E900AD04A7 /* Migraiton */ = {
+			isa = PBXGroup;
+			children = (
+				7156C7CD2C2E791F00AD04A7 /* MeSchemaV1.swift */,
+				7156C7CA2C2E791F00AD04A7 /* MeSchemaV2.swift */,
+				7156C7CC2C2E791F00AD04A7 /* MeSchemaV3.swift */,
+				7156C7C92C2E791F00AD04A7 /* MeSchemaV4.swift */,
+				7156C7CB2C2E791F00AD04A7 /* MigrationPlan.swift */,
+			);
+			path = Migraiton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +219,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7156C7B62C2E736500AD04A7 /* SettingType.swift in Sources */,
+				7156C7CF2C2E791F00AD04A7 /* MeSchemaV2.swift in Sources */,
+				7156C7BB2C2E736500AD04A7 /* TodayHealthData.swift in Sources */,
+				7156C7C02C2E736500AD04A7 /* WorkoutList.swift in Sources */,
+				7156C7B82C2E736500AD04A7 /* HeartZoneData.swift in Sources */,
+				7156C7C32C2E736500AD04A7 /* WorkoutHeartZone.swift in Sources */,
 				7134902A2C2DB9710038F6FF /* ContentView.swift in Sources */,
-				7134902C2C2DB9710038F6FF /* Item.swift in Sources */,
+				7156C7D12C2E791F00AD04A7 /* MeSchemaV3.swift in Sources */,
+				7156C7C22C2E736500AD04A7 /* WorkoutTargetData.swift in Sources */,
+				7156C7B72C2E736500AD04A7 /* WorkoutDetailData.swift in Sources */,
+				7156C7BF2C2E736500AD04A7 /* ModelStruct.swift in Sources */,
+				7156C7C12C2E736500AD04A7 /* WorkoutSegmentData.swift in Sources */,
+				7156C7B32C2E736500AD04A7 /* TodayRingData.swift in Sources */,
+				7156C7D22C2E791F00AD04A7 /* MeSchemaV1.swift in Sources */,
+				7156C7B42C2E736500AD04A7 /* SleepDataSource.swift in Sources */,
+				7156C7CE2C2E791F00AD04A7 /* MeSchemaV4.swift in Sources */,
+				7156C7C42C2E736500AD04A7 /* WorkoutStatisticsForTarget.swift in Sources */,
+				7156C7BC2C2E736500AD04A7 /* SportsDataStatistics.swift in Sources */,
+				7156C7BE2C2E736500AD04A7 /* SleepStagesData.swift in Sources */,
 				713490282C2DB9710038F6FF /* SwiftDataTestApp.swift in Sources */,
+				7156C7BD2C2E736500AD04A7 /* WorkoutMaxMinRangeData.swift in Sources */,
+				7156C7D02C2E791F00AD04A7 /* MigrationPlan.swift in Sources */,
+				7156C7BA2C2E736500AD04A7 /* HealthDataStatistics.swift in Sources */,
+				7156C7B92C2E736500AD04A7 /* HealthDataList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
