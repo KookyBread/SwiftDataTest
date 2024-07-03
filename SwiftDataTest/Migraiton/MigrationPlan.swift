@@ -5,6 +5,9 @@
 //  Created by 刘弨 on 2024/4/29.
 //
 
+
+//MARK: - Version3 MeMigrationPlan
+
 //import Foundation
 //import SwiftData
 //
@@ -36,6 +39,9 @@
 //        willMigrate: nil, didMigrate: nil
 //    )
 //}
+
+
+//MARK: - Version3 MeMigrationPlan
 
 import Foundation
 import SwiftData
@@ -80,7 +86,6 @@ enum MeMigrationPlan: SchemaMigrationPlan {
         fromVersion: MeSchemaV3.self,
         toVersion: MeSchemaV4.self,
         willMigrate: { context in
-            print("开始数据迁移")
             do {
                 try context.delete(model: MeSchemaV3.WorkoutList.self)
                 try context.delete(model: MeSchemaV3.HealthDataStatistics.self)
@@ -93,10 +98,8 @@ enum MeMigrationPlan: SchemaMigrationPlan {
                 try context.delete(model: MeSchemaV3.WorkoutStatisticsForTarget.self)
                 try context.delete(model: MeSchemaV3.HealthDataList.self)
                 try context.delete(model: MeSchemaV3.SleepStagesData.self)
-                print("历史数据删除完毕")
-                try context.save()  // 确保删除操作被保存
+                try context.save()
             } catch {
-                // 处理迁移错误
                 print("Migration from V3 to V4 failed with error: \(error)")
                 throw error
             }
