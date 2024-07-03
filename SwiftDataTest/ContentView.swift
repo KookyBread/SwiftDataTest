@@ -14,11 +14,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack{
-            ForEach(workoutList, id: \.id){ data in
-                Text("This is a test demo")
-                Text("\(data.StartDate)")
-                Text("\(data.EndDate)")
-            }
+            Text("This is a test demo")
         }
     }
 }

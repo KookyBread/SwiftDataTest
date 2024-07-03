@@ -58,16 +58,19 @@ struct SwiftDataTestApp: App {
         ])
         let migrationPlan = MeMigrationPlan.self
         do {
-            return try ModelContainer(for: schema, migrationPlan: migrationPlan)
+            let container = try ModelContainer(for: schema, migrationPlan: migrationPlan)
+            print("schema:\(container.schema)")
+            
+            return container
         } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+            fatalError("Could not create ModelContainer: \(error.localizedDescription)")
         }
     }()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(sharedModelContainer)
         }
-        .modelContainer(sharedModelContainer)
     }
 }
